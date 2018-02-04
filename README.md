@@ -8,6 +8,10 @@ Python + TensorFlow implementation of the [DropoutNet](http://www.cs.toronto.edu
 
 Authors: [Maksims Volkovs](www.cs.toronto.edu/~mvolkovs), [Guangwei Yu](http://www.cs.toronto.edu/~guangweiyu), Tomi Poutanen
 
+## Disclaimer
+This repository is just a fork of the original repo which now is not accessible by the public. Please use it at your full  responsibility.
+
+
 ## Table of Contents  
 0. [Introduction](#intro)  
 1. [Environment](#env)
@@ -103,10 +107,4 @@ Notes:
 * On our environment (described above) 50K updates takes approximately 14 minutes with the default GPU/CPU setting.
 * By default, training happens on GPU while inference and batch generation is on CPU.
 
-## Validation Curves
-<p align="center">
-<img src="https://github.com/layer6ai-labs/DropoutNet/blob/master/logs/warm.png" width="500">
-<img src="https://github.com/layer6ai-labs/DropoutNet/blob/master/logs/cold_user.png" width="500">
-<img src="https://github.com/layer6ai-labs/DropoutNet/blob/master/logs/cold_item.png" width="500">
-</p>
 
